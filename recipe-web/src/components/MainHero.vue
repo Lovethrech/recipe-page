@@ -1,7 +1,4 @@
 <style scoped>
-.main-hero{
-
-}
 .main-hero-image-ctn{
     width:100%;
     height:100%;
@@ -11,17 +8,30 @@
     height:100%;
 }
 .main-hero-text-section h1{
-    font-weight:700;
+    font-weight:400;
     font-size:30px;
+    font-family: "Young Serif", serif;
+    font-style: normal;
 }
 .hero-title-text{
+    color: hsl(30, 10%, 34%);
     font-size: 16px;
-    line-height:1.5
+    font-family: "Outfit", sans-serif;
+    line-height:2;
+    text-align:justify;
 }
 .prep-time{
     background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit", sans-serif;
     padding:30px 50px;
-    line-height:2;
+    line-height:3;
+}
+.prep-time h2{
+    color:hsl(332, 51%, 32%);
+    font-weight:600;
+}
+.prep-time ul{
+    color: hsl(30, 10%, 34%);
 }
 </style>
 

@@ -5,6 +5,7 @@
 }
 body{
   background-color: hsl(0, 0%, 100%);
+  
 }
 
 #app{
@@ -13,4 +14,10 @@ body{
   display:flex;
   place-items: center;
   justify-content:center;
+}
+
+@media screen and (max-width:850px){
+  #app{
+      padding:0;
+  }
 }

@@ -4,16 +4,22 @@ import nutritionValues from "@/data/nutritionValues.json";
 
 <style scoped>
 .nutrient-main-ctn{
+    color: hsl(30, 10%, 34%);
     padding:30px 0;
     
 }
+.nutrient-main-ctn h2{
+    color:hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-style: normal;
+    font-weight:400;
+}
 .nutrient-text{
     padding:10px 0;
-}
-.nutrient-list-container{
-
+    line-height:2;
 }
 .nutrient-list{
+    font-family: "Outfit", sans-serif;
     display:flex;
     line-height:4;
 }
@@ -38,7 +44,7 @@ import nutritionValues from "@/data/nutritionValues.json";
                     <p>{{nutritionValue.value}}</p>
                 </div>
                 <div class="amount">
-                    <p>{{nutritionValue.amount}}</p>
+                    <p><b>{{nutritionValue.amount}}</b></p>
                 </div>
             </div>
             <hr/>
