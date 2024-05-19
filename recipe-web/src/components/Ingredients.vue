@@ -3,8 +3,8 @@
     padding:30px 0;
     line-height:2;
 }
-.ingredient-main-ctn h2{
-
+.ingredient-main-ctn ul{
+    padding:0 30px;
 }
 </style>
 

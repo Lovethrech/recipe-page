@@ -1,6 +1,8 @@
 <script setup>
 import MainHero from "@/components/MainHero.vue";
 import Ingredients from "@/components/Ingredients.vue";
+import Instructions from "@/components/Instructions.vue";
+import Nutrition from "@/components/Nutrition.vue";
 </script>
 
 <style scoped>
@@ -15,5 +17,7 @@ import Ingredients from "@/components/Ingredients.vue";
   <div class="app-main">
     <MainHero></MainHero>
     <Ingredients></Ingredients>
+    <Instructions></Instructions>
+    <Nutrition></Nutrition>
   </div>
 </template>

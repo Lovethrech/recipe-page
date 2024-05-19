@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "value": "Calories",
+        "amount": "277kcal"
+    },
+    {
+        "id":2,
+        "value": "Carbs",
+        "amount": "0g"
+    },
+    {
+        "id":3,
+        "value": "Protein",
+        "amount": "20g"
+    },
+    {
+        "id":4,
+        "value": "Fat",
+        "amount": "22g"
+    }
+]
